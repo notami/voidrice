@@ -1,0 +1,25 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:toggle_visualizer
+state: stop
+current: 4
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Los Lobos/El Cancionero Mas y Mas (2000)/CD1/CD1 - 16 - Will the wolf survive_.mp3
+1:Bob Dylan/Blood on the Tracks/01 Tangled Up In Blue.mp3
+2:Bob Dylan/Blood on the Tracks/02 Simple Twist Of Fate.mp3
+3:Bob Dylan/Blood on the Tracks/03 You're A Big Girl Now.mp3
+4:Bob Dylan/Blood on the Tracks/04 Idiot Wind.mp3
+5:Bob Dylan/Blood on the Tracks/05 You're Gonna Make Me Lonesome When You Go.mp3
+6:Bob Dylan/Blood on the Tracks/06 Meet Me In The Morning.mp3
+7:Bob Dylan/Blood on the Tracks/07 Lily, Rosemary And The Jack Of Hearts.mp3
+8:Bob Dylan/Blood on the Tracks/08 If You See Her, Say Hello.mp3
+9:Bob Dylan/Blood on the Tracks/09 Shelter From The Storm.mp3
+10:Bob Dylan/Blood on the Tracks/10 Buckets Of Rain.mp3
+playlist_end

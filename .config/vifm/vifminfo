@@ -1,0 +1,172 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home
+	notami
+2
+d/home/notami
+	Data
+1
+d/home
+	notami
+2
+d/
+	usr
+17
+d/usr
+	local
+7
+d/usr/local
+	share
+8
+d/usr/local/share
+	..
+0
+d/home/notami
+	Data
+1
+d/mnt
+	..
+0
+d/home/notami
+	Data
+1
+d/home
+	notami
+2
+d/
+	mnt
+8
+d/mnt
+	Data
+2
+d/mnt/Data
+	Archive
+1
+d/mnt/Data/Archive
+	monid
+4
+
+# Right window history (oldest to newest):
+D/mnt
+	Data
+2
+D/
+	home
+4
+D/home
+	notami
+2
+D/home/notami
+	Data
+8
+D/home/notami/Data
+	ArchMerge-Nemesis
+1
+D/home/notami/Data/ArchMerge-Nemesis
+	200-clone-github-repos-v1.sh
+6
+D/home/notami
+	Data
+10
+D/home/notami/Data
+	ArchMerge-Nemesis
+1
+D/home/notami/Data/ArchMerge-Nemesis
+	200-clone-github-repos-v1.sh
+6
+D/home/notami
+	.local
+7
+D/home/notami/.local
+	share
+2
+D/home/notami/.local/share
+	applications
+1
+D/home/notami/.local/share/applications
+	..
+0
+D/home/notami/.local/share
+	flatpak
+2
+D/home/notami
+	..
+0
+
+# Command line history (oldest to newest):
+:mkdir Audio
+:delete
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+p400-software-AUR-repo-v1.sh
+p400-software-AUR-repo-v1
+p300-install-core-software-v2
+pData
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/notami/.cache
+""/home/notami/.config
+""/home/notami/.enhancd
+""/home/notami/.git
+""/home/notami/.gnupg
+""/home/notami/.icons
+""/home/notami/.local
+""/home/notami/.mozilla
+""/home/notami/.oh-my-zsh
+""/home/notami/.password-store
+""/home/notami/.tmux
+""/home/notami/.vim
+""/home/notami/.w3m
+""/home/notami/.zplug
+""/home/notami/Data
+""/home/notami/Documents
+""/home/notami/Downloads
+""/home/notami/Pictures
+""/home/notami/Video
+""/home/notami/.Xauthority
+""/home/notami/.bash_history
+""/home/notami/.bash_logout
+""/home/notami/.bash_profile
+""/home/notami/.bashrc
+""/home/notami/.gitconfig
+""/home/notami/.histfile
+""/home/notami/.inputrc
+""/home/notami/.mbsyncrc
+""/home/notami/.profile
+""/home/notami/.tmux.conf
+""/home/notami/.tmux.conf.local
+""/home/notami/.vimrc
+""/home/notami/.xinitrc
+""/home/notami/.xprofile
+""/home/notami/.z
+""/home/notami/.zcompdump-monid-ls-5.7.1
+""/home/notami/.zprofile
+""/home/notami/.zsh_history
+""/home/notami/.zshrc
+""/home/notami/.zshrc.org
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/notami/.local/share/vifm/Trash/000_st
+	/home/notami/Data/LukeSmith/st
+t/home/notami/.local/share/vifm/Trash/000_powerlevel10k
+	/home/notami/.oh-my-zsh/custom/themes/powerlevel10k

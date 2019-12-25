@@ -4,23 +4,23 @@
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 
 # Get default LARBS WM from ~/.local/share/larbs/wm
-export LARBSWM="$(cat ~/.local/share/larbs/wm 2>/dev/null)" &&
-	[ "$LARBSWM" = "dwm" ] || export LARBSWM="i3"
+# export LARBSWM="$(cat ~/.local/share/larbs/wm 2>/dev/null)" &&
+# 	[ "$LARBSWM" = "bspwm" ] || export LARBSWM="bspwm"
 
 # Default programs:
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="brave"
+export BROWSER="firefox"
 export READER="zathura"
 export FILE="ranger"
-export STATUSBAR="${LARBSWM}blocks"
+export STATUSBAR="polybar"
 
 # ~/ Clean-up:
 export NOTMUCH_CONFIG="$HOME/.config/notmuch-config"
 export GTK2_RC_FILES="$HOME/.config/gtk-2.0/gtkrc-2.0"
 export LESSHISTFILE="-"
 export INPUTRC="$HOME/.config/inputrc"
-export ZDOTDIR="$HOME/.config/zsh"
+# export ZDOTDIR="$HOME/.config/zsh"
 export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"
 
 # Other program settings:

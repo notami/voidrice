@@ -54,16 +54,16 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = mono:pixelsize=9;1
-font-1 = Inconsolata Nerd Font:size=8;1
+font-0 = mono:pixelsize=11;1
+font-1 = Inconsolata Nerd Font:size=10;1
 font-2 = Noto Color Emoji:scale=10:style=Regular;2
-font-3 = Symbola:pixelsize=9;1
+font-3 = Symbola:pixelsize=11;1
 
 
 ; Other modules: xkeyboard filesystem xbacklight backlight-acpi cpu memory temperature powermenu weather
 modules-left = bspwm xwindow
 ;modules-center =
-modules-right = mpd volume mutt-wizard wlan eth battery date
+modules-right = mpd weather volume eth date
 
 tray-position = right
 tray-padding = 0
@@ -259,7 +259,7 @@ ramp-signal-foreground = ${colors.gray}
 
 [module/eth]
 type = internal/network
-interface = enp0s25
+interface = ens33
 interval = 3.0
 
 format-connected-underline = ${colors.darkgreen}
