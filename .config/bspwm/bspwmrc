@@ -1,23 +1,16 @@
 #!/bin/sh
 
+volumeicon &
+nm-applet &
+
 # If refreshing bspwm, remove all previous rules to prevent doubling up.
 bspc rule -r "*"
 
-# We look for a non-laptop monitor to use for default, but use the laptop
-# screen (LVDS) if there's nothing else. This is because I assume that if you
-# have an extra screen attached to a laptop, you want to use that.
-mainmonitor="$(bspc query --monitors --names | grep -v LVDS | head -n 1)"
 
-if ! echo "$mainmonitor" | grep LVDS >/dev/null 2>&1; then
-	xrandr --output "$mainmonitor" --auto --output LVDS1 --off
-fi
-
-# Start workspaces on the main monitor.
-bspc monitor $mainmonitor -d 1 2 3 4 5 6 7 8 9 10
+# Start workspaces on 2 monitors.
+bspc monitor DVI-I-1 -d 1 2 3 4 5 6 7 8 9 10
+# bspc monitor DVI-2 -d 6 7 8 9 10
 bspc desktop -f 1
-
-# If you want a multi-monitor display or something else, I leave that to you to
-# arrange. I have this sensible default for most people's use cases.
 
 
 bspc config border_width 3
@@ -32,3 +25,4 @@ bspc rule -a St:$dropdownname sticky=on
 bspc rule -a St:$dropdownname state=floating
 
 bspc config external_rules_command "$(which floaters)"
+$HOME/.config/polybar/launch.sh
