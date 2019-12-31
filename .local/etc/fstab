@@ -1,0 +1,24 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sde1 LABEL=OS
+UUID=feac658b-0a36-4b7f-af74-4916260d7747	/         	ext4      	rw,relatime	0 1
+
+# /dev/sde2 LABEL=HOME
+UUID=48671b44-bbe9-4237-a569-6da5e976de2f	/home     	ext4      	rw,relatime	0 2
+
+# /dev/sde3
+UUID=c55bc78b-738b-44ca-9ae8-782eaff8821f	none      	swap      	defaults  	0 0
+
+notami.xyz:/mnt/vol2/Audio /mnt/Audio nfs rw 0 0
+notami.xyz:/mnt/vol2/Data /mnt/Data nfs rw 0 0
+notami.xyz:/mnt/vol2/Images /mnt/Images nfs rw 0 0
+notami.xyz:/mnt/vol2/Video /mnt/Video nfs rw 0 0
+notami.xyz:/mnt/vol4 /mnt/backups nfs rw 0 0
+notami.xyz:/mnt/vol4/Audio-bu /mnt/backups/Audio-bu nfs rw 0 0
+notami.xyz:/mnt/vol4/Data-bu /mnt/backups/Data-bu nfs rw 0 0
+notami.xyz:/mnt/vol4/Images-bu /mnt/backups/Images-bu nfs rw 0 0
+notami.xyz:/mnt/vol4/Video-bu /mnt/backups/Video-bu nfs rw 0 0
+notami.xyz:/mnt/vol3/Exe /mnt/Exe nfs rw 0 0
+notami.xyz:/mnt/vol1/jails/fnweb-local/usr/local/www /mnt/www nfs rw 0 0

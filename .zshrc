@@ -111,9 +111,9 @@ setopt HIST_BEEP
 source ~/.profile
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-source $HOME/.oh-my-zsh/oh-my-zsh.sh
+# source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
-
+source ~/.config/aliasrc
 
 ############
 # FZF OPTS #
